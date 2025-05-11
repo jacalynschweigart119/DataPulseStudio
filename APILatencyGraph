@@ -1,0 +1,23 @@
+
+---
+
+### **2. APILatencyGraph**  
+**Description:**  
+Monitors multiple APIs and builds a latency-over-time graph for trend and anomaly detection.
+
+#### `README.md`
+```markdown
+# APILatencyGraph - Realtime API Trend Tracker
+
+APILatencyGraph tracks latency values for multiple endpoints and visualizes response trends.
+
+## Features
+- Realtime latency graphing  
+- Threshold alerting  
+- Exportable logs (CSV/JSON)
+
+## Usage
+```bash
+git clone https://github.com/your-username/APILatencyGraph.git
+cd APILatencyGraph
+python monitor.py
